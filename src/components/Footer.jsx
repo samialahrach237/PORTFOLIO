@@ -1,0 +1,2 @@
+import { Github, Linkedin } from 'lucide-react'
+export default function Footer() { return <footer><div><a className="brand" href="#home">Samia<span>Lahrach</span></a><p>FULL STACK DEVELOPER</p></div><span>© 2026 Samia Lahrach. All rights reserved.</span><div className="footer-socials"><a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn"><Linkedin size={16} /></a><a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub"><Github size={16} /></a></div></footer> }

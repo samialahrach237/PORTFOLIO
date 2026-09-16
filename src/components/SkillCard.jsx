@@ -1,0 +1,1 @@
+export default function SkillCard({ group }) { const Icon = group.icon; return <article className="skill-card"><div className="skill-icon"><Icon size={21} /></div><h3>{group.label}</h3><div className="skill-list">{group.skills.map((skill) => <span key={skill}>{skill}</span>)}</div></article> }
